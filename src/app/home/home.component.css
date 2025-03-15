@@ -1,0 +1,19 @@
+.main-content {
+    transition: margin-right 0.3s ease-in-out;
+  }
+  
+  .shift {
+    margin-right: 250px; /* Adjust width based on sidebar */
+  }
+  /* Custom offcanvas styling */
+.offcanvas.offcanvas-end {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: calc(100vh - 65px);
+    transition: all 0.3s ease-in-out;
+    z-index: -1;
+    background-color: #f8f9fa;
+  }
+  

@@ -1,1 +1,18 @@
-<p>home works!</p>
+<section class="position-relative">
+
+
+<div class="offcanvas offcanvas-end" id="offcanvasExample" tabindex="-1">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title">Offcanvas</h5>
+    </div>
+    <div class="offcanvas-body">
+        Offcanvas Content Here
+    </div>
+</div>
+<div class="main-content" [class.shift]="isSidebarOpen">
+    <p>home works!</p>
+
+    <h1>Main Content</h1>
+    <p>This content should shift when the offcanvas opens.</p>
+</div>
+</section>

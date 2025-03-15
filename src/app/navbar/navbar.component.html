@@ -1,30 +1,23 @@
-<nav class="navbar">
+<nav class="navbar py-0">
     <div class="row m-0 align-items-center w-100">
         <div class="col-md-2">
             <img class="logo" src="assets/images/logo.svg"/>
         </div>
-      <div class="col-md-6">
+      <div class="col-md-7 d-flex justify-content-center">
         <div class="input-wrapper form-control">
           <i class="fa-solid fa-magnifying-glass text-muted"></i>
           <input type="text" placeholder="ابحث...">
         </div>
       </div>
   
-      <div class="col-md-4 d-flex justify-content-evenly align-items-center">
-        <div class="notifications" data-bs-toggle="modal" data-bs-target="#notificationModal">
-          <i class="fa-solid fa-bell main-color fa-lg"></i>
-        </div>
-        <div class="user" data-bs-toggle="modal" data-bs-target="#profileModal">
-          <img src="assets/images/user.png" alt="User">
-          <div class="user-info">
-            <h6>الاسم</h6>
-            <small class="text-muted">
-              <span>التاريخ</span>,
-              <span>التوقيت</span>
-            </small>
-          
-          </div>
-        </div>
+      <div class="col-md-3 d-flex justify-content-evenly align-items-center">
+        <a class="notifications" data-bs-toggle="modal" data-bs-target="#notificationModal">
+          <i class="fa-solid fa-bell fa-lg text-white"></i>
+        </a>
+        <a class="user" data-bs-toggle="modal" data-bs-target="#profileModal">
+          <i class="far fa-user-circle fa-lg text-white"></i>
+        </a>
+        <a href="#" class="btn nav-btn rounded-pill">تسجيل الخروج </a>
       </div>
     </div>
   </nav>

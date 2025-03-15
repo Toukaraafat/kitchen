@@ -1,4 +1,9 @@
-.sidebar{
-    background: #000;
+.sidebar {
+    background: url(../../../public/assets/images/black-bg.svg) no-repeat ;
     height: 100vh;
+    text-align: center;
+    color: #fff;
+}
+.nav-icon{
+    height: 1.5rem;
 }
