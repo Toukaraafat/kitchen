@@ -1,0 +1,72 @@
+<nav class="navbar">
+    <div class="row m-0 align-items-center w-100">
+        <div class="col-md-2">
+            <img class="logo" src="assets/images/logo.svg"/>
+        </div>
+      <div class="col-md-6">
+        <div class="input-wrapper form-control">
+          <i class="fa-solid fa-magnifying-glass text-muted"></i>
+          <input type="text" placeholder="ابحث...">
+        </div>
+      </div>
+  
+      <div class="col-md-4 d-flex justify-content-evenly align-items-center">
+        <div class="notifications" data-bs-toggle="modal" data-bs-target="#notificationModal">
+          <i class="fa-solid fa-bell main-color fa-lg"></i>
+        </div>
+        <div class="user" data-bs-toggle="modal" data-bs-target="#profileModal">
+          <img src="assets/images/user.png" alt="User">
+          <div class="user-info">
+            <h6>الاسم</h6>
+            <small class="text-muted">
+              <span>التاريخ</span>,
+              <span>التوقيت</span>
+            </small>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- notification modal  -->
+   <div class="modal fade notificationModal" id="notificationModal" tabindex="-1" aria-labelledby="notficationModalLabel" aria-hidden="true" >
+    <div class="modal-dialog ">
+      <div class="modal-content">
+        <div class="modal-header border-0">
+          <button type="button" class="btn btn-close p-2" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body pb-5 ">
+          <h4 class="text-center"> كل الاشعارات</h4>
+          <div class="notification d-flex justify-content-between align-items-center border-bottom py-2">
+            <div class="d-flex align-items-center">
+              <i class="fa-solid fa-bell main-color ms-2"></i>
+              <p class="m-0">يوجد طلب جديد</p>
+            </div>
+            <div class="status">
+            </div>
+          </div>
+          <div class="notification d-flex justify-content-between align-items-center border-bottom py-2">
+            <div class="d-flex align-items-center">
+              <i class="fa-solid fa-bell main-color  ms-2"></i>
+              <p class="m-0">يوجد طلب جديد</p>
+            </div>
+            <div class="status">
+            </div>
+          </div>
+
+          <div class="notification d-flex justify-content-between align-items-center border-bottom py-2">
+            <div class="d-flex align-items-center">
+              <i class="fa-solid fa-bell main-color  ms-2"></i>
+              <p class="m-0">يوجد طلب جديد</p>
+            </div>
+            <div class="status">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
