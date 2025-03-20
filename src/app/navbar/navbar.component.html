@@ -17,7 +17,8 @@
         <a class="user" data-bs-toggle="modal" data-bs-target="#profileModal">
           <i class="far fa-user-circle fa-lg text-white"></i>
         </a>
-        <a href="#" class="btn nav-btn rounded-pill">تسجيل الخروج </a>
+        <a  class="btn nav-btn rounded-pill"  data-bs-toggle="modal"
+        data-bs-target="#logoutModal">تسجيل الخروج </a>
       </div>
     </div>
   </nav>
@@ -59,6 +60,32 @@
       </div>
     </div>
   </div>
+
+
+   <!-- logout Modal -->
+   <div class="modal fade logoutModal" id="logoutModal" tabindex="-1" aria-labelledby="logoutModalLabel"
+   aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered">
+     <div class="modal-content">
+       <div class="modal-header d-flex justify-content-center">
+         <h5 class="modal-title text-center" id="logoutModalLabel">تنبيه !</h5>
+         <button type="button" class="btn-close position-absolute end-0 me-3" data-bs-dismiss="modal"
+           aria-label="Close"></button>
+       </div>
+
+       <div class="modal-body text-center mt-5">
+         <h3>هل انت متأكد من تسجيل الخروج ؟</h3>
+       </div>
+       <div class="modal-footer d-flex justify-content-center border-0 my-2">
+         <a href="/login.html" type="button" class="btn btn-logout w-25"> <i class="fas fa-sign-out-alt ms-1"></i>
+           الخروج</a>
+         <a href="/kitchen.html" type="button" class="btn  main-color bg-light w-25 border" data-bs-dismiss="modal "
+           aria-label="Close"> <i class="fas fa-times-circle ms-1"></i>الغاء</a>
+
+       </div>
+     </div>
+   </div>
+ </div>
 
 
 

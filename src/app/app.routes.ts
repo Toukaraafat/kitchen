@@ -30,6 +30,7 @@ import { IngredientsComponent } from './ingredients/ingredients.component';
 import { LoginComponent } from './login/login.component';
 import { MainComponent } from './main/main.component'; 
 import {SubComponent } from './sub/sub.component'; 
+import { KitchenTypeComponent } from './kitchen-type/kitchen-type.component';
 
 export const routes: Routes = [
 // pages include navbar and sidebar
@@ -46,6 +47,8 @@ export const routes: Routes = [
         component: SubComponent,
         children: [
             { path: 'login', component: LoginComponent },
+            { path: 'kitchen-type', component: KitchenTypeComponent },
+
             { path: 'order-details', component: OrderDetailsComponent },
             { path: 'ingredients', component: IngredientsComponent },
         ]

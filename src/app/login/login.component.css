@@ -1,0 +1,52 @@
+/* .login {
+  position: relative;
+  height: 100vh;
+}
+
+.login::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10vh; 
+  background: linear-gradient(to left, 
+      transparent,
+      transparent,
+      transparent,
+      rgba(228, 172, 172, 0.475), 
+      transparent,
+      transparent,
+      transparent
+  );
+} */
+
+.login .card{
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border: none;
+}
+.login-chef{
+  width:25rem;
+  height:auto;
+}
+.input-group input{
+  box-shadow: 0px 4px 4px 0px #00000026;
+  border: 1px solid #DFDFDF;
+  padding: 10px;
+  border-radius: 10px;
+}
+ .btn-send{
+  border: none;
+  padding: 10px;
+}
+.input-group .btn-send{
+  border: none;
+  padding: 10px;
+}
+input::placeholder{
+  font-size: 15px;
+  color: #999898;
+  
+}
