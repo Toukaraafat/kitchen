@@ -13,13 +13,13 @@ export class IngredientsWayStepsService {
 
   constructor(private http: HttpClient) {}
 
-  getDishIngredients(dish_id: number, size_id: number): Observable<any> {
+  getDishIngredients(dish_id: number): Observable<any> {
   
     const headers = new HttpHeaders({
       'Content-Type': 'application/json',
       'Authorization': `Bearer ${this.token}`
     });
 
-    return this.http.post(this.apiUrl, { dish_id, size_id }, { headers });
+    return this.http.post(this.apiUrl, { dish_id}, { headers });
   }
 }
